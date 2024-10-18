@@ -1,0 +1,252 @@
+<html>
+<head>
+     <title>Tablas en HTML</title>
+     <link rel="stylesheet" href="../css/style.css" type="text/css">
+    <style>
+    table{
+            width: 100%;        
+            text-align: center;
+            margin: 0 auto;
+            color: blueviolet;
+            border-style: solid;
+            border-color: aquamarine;
+            border-width: 3px;
+        }
+        tabla_1 th{
+            background-color:azure;
+            border-radius: 5px;
+        }
+        tabla_1 td{
+            background-color:cornsilk;
+            color:darkcyan;
+            text-align: left;
+            border-radius: 5px;
+            margin: 10px;
+            border-style: solid;
+            border-color: aqua;
+            border-width: 2px;
+        }
+        #tabla_2{
+            color: fuchsia;
+            height: 
+            
+        }
+        tabla_2 td {
+            color: darkorange;
+            height: 50px;
+            padding: 20px;
+        }
+        .celda_centrada{
+            background-color: #855e6e;
+        }
+        tabla_3{
+            background-color: black;
+            color:crimson;
+        }
+    
+    </style>
+    </head>
+<body>
+    
+    <header>
+    <h1>Tablas en html</h1>
+    </header>
+    <nav>
+            <ul>
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="listas.html">Listas</a> </li>
+            <li><a href="Enlaces.html"> Enlaces</a> </li>
+            <li><a href="tablas.html"> Tablas</a></li>
+            <li><a href="imagenes.html">Imagenes</a></li>
+            <li><a href="audio.html">Audio</a></li>
+            <li><a href="video.html">Video</a></li>
+            <li><a href="formularios.html"> Formulario</a></li>
+            </ul>
+          
+        
+        </nav>
+ 
+<main>
+    <section>
+    <h2>Tablas</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit nisi ut tristique condimentum. Nullam non enim in lectus accumsan posuere. Donec blandit hendrerit lorem id gravida. Nam sit amet tortor fermentum, mollis turpis vel, elementum nisi. In tempus id ipsum sed volutpat. Sed eu efficitur elit. Nulla vulputate metus vitae ligula sodales auctor. Praesent vitae mauris id ipsum rhoncus luctus. Nullam at odio augue. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean sed aliquet orci. Donec vehicula sapien non lacinia faucibus. Cras tristique aliquam posuere. Vivamus suscipit risus in orci lacinia, eu suscipit velit sagittis. Suspendisse.</p>
+        <table border="1px" id="tabla_1">
+        <thead>
+            <tr>
+            <th>Matricula</th>
+            <th>Apellido Paterno</th>
+            <th>Apellido Materno</th>    
+            <th>Nombre</th> 
+            <th>Colegio</th>     
+            </tr>
+            </thead>
+        <tbody>
+            <tr>
+            <td>202027184</td>
+            <td>Lopéz</td>
+            <td>Maldonado</td>
+            <td>Luis</td>
+            <td>Arquitectura</td>    
+            </tr>
+            <tr>
+            <td>202025584</td>
+            <td>Juarez</td>
+            <td>Perez</td>
+            <td>Jimena</td>
+            <td>Arquitectura</td>    
+            </tr>
+             <tr>
+            <td>202141184</td>
+            <td>Amador</td>
+            <td>Jimenez</td>
+            <td>Manuel</td>
+            <td>Urbanismo</td>    
+            </tr>
+             <tr>
+            <td>202458473</td>
+            <td>Gomez</td>
+            <td>Gonzalez</td>
+            <td>Bruno</td>
+            <td>Sociales</td>    
+            </tr>
+             <tr>
+            <td>201651584</td>
+            <td>Huerta</td>
+            <td>Cortez</td>
+            <td>Martha</td>
+            <td>Ingenierias</td>    
+            </tr>
+            </tbody>
+        <tfoot>
+            </tfoot>
+        </table>
+    </section>
+    
+    <section>
+    <h2>Tablas</h2>
+    <p>La amistad es uno de los lazos más profundos y significativos que los seres humanos pueden experimentar. Es una relación basada en la confianza, el respeto y el apoyo mutuo, donde los amigos se convierten en una segunda familia, elegida por afinidad y afecto. La verdadera amistad trasciende el tiempo, la distancia y las diferencias, siendo un refugio seguro donde uno puede ser genuinamente uno mismo, sin máscaras ni juicios. Un amigo es alguien que te entiende en tus momentos de alegría y tristeza, que celebra tus victorias y te levanta en tus derrotas. Por eso mis amistades de la primaria, secundaria y bachilleres son las mas largas que conservo por ejemplo:</p>
+        <table id=tabla_2 border="1px">
+        <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Sexo</th>
+            <th>Edad</th>
+            <th>A de amistad</th>
+            </tr>
+            </thead>
+        <tbody>
+             <tr>
+            <td>Diana Patricia</td>
+            <td>Mujer</td>
+            <td>22</td>
+            <td class="celda_centrada">10</td>
+            </tr>
+             <tr>
+            <td>Zamara Isabel</td>
+            <td>Mujer</td>
+            <td>21</td>
+            <td class="celda_centrada">6</td>
+            </tr>
+             <tr>
+            <td>Francisco</td>
+            <td>Mujer</td>
+            <td>23</td>
+            <td class="celda_centrada">7</td>
+            </tr>
+            <tr>
+            <td>Emanuel</td>
+            <td>Hombre</td>
+            <td>22</td>
+            <td class="celda_centrada">6</td>
+            </tr>
+            </tbody>
+            <tfoot>
+            <tr>
+            <td></td>
+            <td></td>
+            <td></td>    
+            <td></td>
+            </tr>
+            </tfoot>
+        </table>
+    </section>
+    
+    <section>
+    <h2>Tablas</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit nisi ut tristique condimentum. Nullam non enim in lectus accumsan posuere. Donec blandit hendrerit lorem id gravida. Nam sit amet tortor fermentum, mollis turpis vel, elementum nisi. In tempus id ipsum sed volutpat. Sed eu efficitur elit. Nulla vulputate metus vitae ligula sodales auctor. Praesent vitae mauris id ipsum rhoncus luctus. Nullam at odio augue. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean sed aliquet orci. Donec vehicula sapien non lacinia faucibus. Cras tristique aliquam posuere. Vivamus suscipit risus in orci lacinia, eu suscipit velit sagittis. Suspendisse.</p>
+        <table id="tabla_3">
+        <thead>
+            <tr>
+            <th>Nombre</th>
+            <th>Edad</th>
+            <th>Deporte</th>
+            <th>Email</th>    
+            <th>Telefono</th>    
+            </tr>
+            </thead>
+        <tbody>
+            <tr>
+            <td>Emiliano</td>
+            <td>17</td>    
+            <td>Futbol</td>    
+            <td>Emil14@gmail.com</td>    
+            <td>7764584712</td>
+            </tr>
+            <tr>
+            <td>Camila</td>
+            <td>16</td>    
+            <td>Natacion</td>    
+            <td>caminat@gmail.com</td>    
+            <td>2215874563</td>
+            </tr>
+            <tr>
+            <td>Sofia</td>
+            <td>17</td>    
+            <td>Futbol</td>    
+            <td>sopi41@gmail.com</td>    
+            <td>2222583614</td>
+            </tr>
+             <tr>
+            <td>Marco Antonio</td>
+            <td>18</td>    
+            <td>Natacion</td>    
+            <td>marant177@gmail.com</td>    
+            <td>2214475589</td>
+            </tr>
+            <tr>
+            <td>Mauricio</td>
+            <td>17</td>    
+            <td>Futbol</td>    
+            <td>mauyañez0602@gmail.com</td>    
+            <td>7748521436</td>
+            </tr>
+             <tr>
+            <td>Maria fernanda</td>
+            <td>18</td>    
+            <td>Natacion</td>    
+            <td>marifer@gmail.com</td>    
+            <td>22125801</td>
+            </tr>
+            <tr>
+            <td>Monica</td>
+            <td>15</td>    
+            <td>Futbol</td>    
+            <td>moni@gmail.com</td>    
+            <td>7748521436</td>
+            </tr>
+            </tbody>
+        <tfoot></tfoot>
+        
+        </table>
+    </section>
+    
+    </main>
+
+
+<footer>
+    <h5>Elaborado por:Mildred Nayelli Gomez Huerta</h5>
+    </footer>
+    
+    </body>
+
+</html>
